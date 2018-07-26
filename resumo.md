@@ -36,3 +36,5 @@ Pour installer les requirements:
 ## Organisez un projet en modules
 
 r pour lire ou w pour ecrire sur le fichier
+
+fiquei no P1C4 8:46
