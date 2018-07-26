@@ -31,3 +31,8 @@ Pour créer le fichier de depandances il faut lui donner le nom de requirements.
     touch requirements.txt
 Pour installer les requirements:
     pip install -r requirements.txt
+
+#(P1C4)
+## Organisez un projet en modules
+
+r pour lire ou w pour ecrire sur le fichier
