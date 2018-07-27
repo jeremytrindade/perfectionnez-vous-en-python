@@ -37,4 +37,17 @@ Pour installer les requirements:
 
 r pour lire ou w pour ecrire sur le fichier
 
-fiquei no P1C4 8:46
+#(P1C5)
+## Gérez les erreurs et les bogues
+
+il a deux façon de le faire.
+1.  
+on fait:
+import pdb
+au debut et apres a la place desire on mes:
+pdb.set_trace()
+
+2. (Recommander)
+on mes tout directement a la meme place c'est a dire la place qu'on veut tester:
+import pdb; pdb.set_trace()
+
