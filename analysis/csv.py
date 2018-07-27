@@ -2,8 +2,14 @@
 # coding: utf-8
 import os
 import logging as lg
-
 lg.basicConfig(level=lg.DEBUG)
+
+import pandas as pd
+import matplotlib
+matplotlib.use('TkAgg')# i'm on MacOS
+import matplotlib.pyplot as plt
+import numpy as np
+import seaborn as sns # Pimp my Matplotlib
 
 
 def launch_analysis(data_file):
