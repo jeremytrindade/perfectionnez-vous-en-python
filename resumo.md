@@ -51,3 +51,10 @@ pdb.set_trace()
 on mes tout directement a la meme place c'est a dire la place qu'on veut tester:
 import pdb; pdb.set_trace()
 
+### Logging Levels
+Critical.   50 - Indique un probleme tres serieur qui a arreter le programme.
+Error.  40 - Indique que a cause d'un probleme important na pus realiser une tache.
+Warning.    30 - Indique que quelque chose d'inatandue c'est passer, mais que le programme continue a fonctioner.
+Info.   20 - Dit que le programme c'est bien derouler.
+Debug.  10 - Afichera des information detailler dans le but den savoir plus a propos d'une execution.
+Notset. 0 
