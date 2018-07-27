@@ -1,7 +1,6 @@
 #! /usr/bin/env python3
 # coding: utf-8
 import argparse
-import pdb
 
 import analysis.csv as c_an
 import analysis.xml as x_an
@@ -13,9 +12,8 @@ def parse_arguments():
 
 def main():
     args = parse_arguments()
-    pdb.set_trace()
     if args.extension == 'csv':
-        c_an.launch_analysis('current_mps.csv')
+        c_an.launch_analysis('current_mp.csv')
     elif args.extension == 'xml':
         x_an.launch_analysis('SyceronBrut.xml')
     
